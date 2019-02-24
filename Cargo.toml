@@ -1,0 +1,6 @@
+[package]
+name = "cmd_progress"
+version = "0.1.0"
+authors = ["Garrett van Wageningen <ghvanw283@gmail.com>"]
+
+[dependencies]
