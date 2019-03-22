@@ -15,8 +15,7 @@ pub fn print_progress(percent: usize) -> io::Result<()> {
     progress.push(' ');
   }
 
-  // print!("[{}]\r", progress);
-  print!("\r[{}]", progress);
+  print!("\r[{}] {}% complete", progress, percent);
   io::stdout().flush()?;
   Ok(())
 }
