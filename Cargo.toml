@@ -3,4 +3,12 @@ name = "cmd_progress"
 version = "0.1.0"
 authors = ["Garrett van Wageningen <ghvanw283@gmail.com>"]
 
+[lib]
+name = "cmd_progress_lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "cmd_progress_bin"
+path = "src/main.rs"
+
 [dependencies]
